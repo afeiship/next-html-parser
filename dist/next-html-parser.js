@@ -11,13 +11,13 @@
   var parse = require('himalaya').parse;
   var nxTraverse = nx.traverse || require('next-traverse');
   var DEFAULT_OPTIONS = { callback: nx.noop };
-  var DEFAULT_TRAVERSE_OPTS = { itemsKey: 'children' };
+  var DEFAULT_TRAVERSE_OPTS = { himalaya: {}, itemsKey: 'children' };
 
   var NxHtmlParser = nx.declare('nx.HtmlParser', {
     statics: {
       parse: function(inHtml, inOptions) {
         var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-        var nodes = parse(inHtml, options);
+        var nodes = parse(inHtml, options.himalaya);
         nxTraverse(
           nodes,
           function(index, item) {
