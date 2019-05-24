@@ -21,7 +21,7 @@
                 _attributes[item.key] = item.value;
               });
             }
-
+            item.attrs = _attributes;
             options.callback(index, item, nodes);
           },
           DEFAULT_TRAVERSE_OPTS
