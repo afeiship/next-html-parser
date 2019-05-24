@@ -22,6 +22,3 @@ NxHtmlParser.parse('<div class="nx-html-parser">test <storng>storng text</storng
   }
 });
 ```
-
-## resources
-- https://github.com/afeiship
