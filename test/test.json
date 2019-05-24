@@ -1,0 +1,526 @@
+yarn run v1.12.3
+$ jest
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'p',
+      attributes: [],
+      children:
+       [ { type: 'text', content: '\n  订阅号是' },
+         { type: 'element',
+           tagName: 'a',
+           attributes:
+            [ { key: 'rel', value: 'noreferrer noopener' },
+              { key: 'href',
+                value:
+                 'https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%B9%B3%E5%8F%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao' },
+              { key: 'target', value: '_blank' } ],
+           children: [ { type: 'text', content: '微信公众平台' } ] },
+         { type: 'text', content: '的' },
+         { type: 'element',
+           tagName: 'span',
+           attributes:
+            [ { key: 'style', value: 'font-family:SimSun, STSong' },
+              { key: 'class', value: 'tss-font-family' } ],
+           children: [ { type: 'text', content: '一种帐号类型' } ] },
+         { type: 'text', content: '，旨在为用户提供信息。功能如下：\n' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n  订阅号是' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'a',
+      attributes:
+       [ { key: 'rel', value: 'noreferrer noopener' },
+         { key: 'href',
+           value:
+            'https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%B9%B3%E5%8F%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao' },
+         { key: 'target', value: '_blank' } ],
+      children: [ { type: 'text', content: '微信公众平台' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '微信公众平台' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '的' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'span',
+      attributes:
+       [ { key: 'style', value: 'font-family:SimSun, STSong' },
+         { key: 'class', value: 'tss-font-family' } ],
+      children: [ { type: 'text', content: '一种帐号类型' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '一种帐号类型' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '，旨在为用户提供信息。功能如下：\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' /wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'p',
+      attributes: [],
+      children: [ { type: 'text', content: '1、每天（24小时内）可以发送1条群发消息。' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '1、每天（24小时内）可以发送1条群发消息。' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' /wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'p',
+      attributes: [],
+      children:
+       [ { type: 'text', content: '\n  ' },
+         { type: 'element',
+           tagName: 'span',
+           attributes:
+            [ { key: 'style', value: 'font-family:SimHei, STHeiti' },
+              { key: 'class', value: 'tss-font-family' } ],
+           children:
+            [ { type: 'element',
+                tagName: 'span',
+                attributes:
+                 [ { key: 'style', value: 'font-size:14px' },
+                   { key: 'class', value: 'tss-fontsize' } ],
+                children:
+                 [ { type: 'text',
+                     content: '2、发给订阅用户（粉丝）的消息，将会显示在对方的“订阅号”文件夹中。点击两次才可以打开。' } ] } ] },
+         { type: 'text', content: '\n' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n  ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'span',
+      attributes:
+       [ { key: 'style', value: 'font-family:SimHei, STHeiti' },
+         { key: 'class', value: 'tss-font-family' } ],
+      children:
+       [ { type: 'element',
+           tagName: 'span',
+           attributes:
+            [ { key: 'style', value: 'font-size:14px' },
+              { key: 'class', value: 'tss-fontsize' } ],
+           children:
+            [ { type: 'text',
+                content: '2、发给订阅用户（粉丝）的消息，将会显示在对方的“订阅号”文件夹中。点击两次才可以打开。' } ] } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'span',
+      attributes:
+       [ { key: 'style', value: 'font-size:14px' },
+         { key: 'class', value: 'tss-fontsize' } ],
+      children:
+       [ { type: 'text',
+           content: '2、发给订阅用户（粉丝）的消息，将会显示在对方的“订阅号”文件夹中。点击两次才可以打开。' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text',
+      content: '2、发给订阅用户（粉丝）的消息，将会显示在对方的“订阅号”文件夹中。点击两次才可以打开。' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' /wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'p',
+      attributes: [],
+      children:
+       [ { type: 'text', content: '\n  3、在订阅用户（粉丝）的通讯录中，' },
+         { type: 'element',
+           tagName: 'strong',
+           attributes: [ { key: 'class', value: 'tss-bold' } ],
+           children: [ { type: 'text', content: '订阅号将' } ] },
+         { type: 'text', content: '被放' },
+         { type: 'element',
+           tagName: 'em',
+           attributes: [ { key: 'class', value: 'tss-italic' } ],
+           children: [ { type: 'text', content: '入订' } ] },
+         { type: 'text', content: '阅' },
+         { type: 'element',
+           tagName: 'strong',
+           attributes: [ { key: 'class', value: 'tss-bold' } ],
+           children:
+            [ { type: 'element',
+                tagName: 'em',
+                attributes: [ { key: 'class', value: 'tss-italic' } ],
+                children:
+                 [ { type: 'element',
+                     tagName: 'span',
+                     attributes:
+                      [ { key: 'style', value: 'text-decoration: underline' },
+                        { key: 'class', value: 'tss-underline' } ],
+                     children:
+                      [ { type: 'element',
+                          tagName: 'span',
+                          attributes:
+                           [ { key: 'style', value: 'color:#0059FF' },
+                             { key: 'class', value: 'tss-color' } ],
+                          children: [ { type: 'text', content: '号文件夹' } ] } ] } ] } ] },
+         { type: 'text', content: '中。\n' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n  3、在订阅用户（粉丝）的通讯录中，' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'strong',
+      attributes: [ { key: 'class', value: 'tss-bold' } ],
+      children: [ { type: 'text', content: '订阅号将' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '订阅号将' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '被放' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'em',
+      attributes: [ { key: 'class', value: 'tss-italic' } ],
+      children: [ { type: 'text', content: '入订' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '入订' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '阅' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'strong',
+      attributes: [ { key: 'class', value: 'tss-bold' } ],
+      children:
+       [ { type: 'element',
+           tagName: 'em',
+           attributes: [ { key: 'class', value: 'tss-italic' } ],
+           children:
+            [ { type: 'element',
+                tagName: 'span',
+                attributes:
+                 [ { key: 'style', value: 'text-decoration: underline' },
+                   { key: 'class', value: 'tss-underline' } ],
+                children:
+                 [ { type: 'element',
+                     tagName: 'span',
+                     attributes:
+                      [ { key: 'style', value: 'color:#0059FF' },
+                        { key: 'class', value: 'tss-color' } ],
+                     children: [ { type: 'text', content: '号文件夹' } ] } ] } ] } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'em',
+      attributes: [ { key: 'class', value: 'tss-italic' } ],
+      children:
+       [ { type: 'element',
+           tagName: 'span',
+           attributes:
+            [ { key: 'style', value: 'text-decoration: underline' },
+              { key: 'class', value: 'tss-underline' } ],
+           children:
+            [ { type: 'element',
+                tagName: 'span',
+                attributes:
+                 [ { key: 'style', value: 'color:#0059FF' },
+                   { key: 'class', value: 'tss-color' } ],
+                children: [ { type: 'text', content: '号文件夹' } ] } ] } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'span',
+      attributes:
+       [ { key: 'style', value: 'text-decoration: underline' },
+         { key: 'class', value: 'tss-underline' } ],
+      children:
+       [ { type: 'element',
+           tagName: 'span',
+           attributes:
+            [ { key: 'style', value: 'color:#0059FF' },
+              { key: 'class', value: 'tss-color' } ],
+           children: [ { type: 'text', content: '号文件夹' } ] } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'span',
+      attributes:
+       [ { key: 'style', value: 'color:#0059FF' },
+         { key: 'class', value: 'tss-color' } ],
+      children: [ { type: 'text', content: '号文件夹' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '号文件夹' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '中。\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' /wp:paragraph ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment',
+      content:
+       ' wp:data/tu-block {"tid":"3227","dataJson":"eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ=="} ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'div',
+      attributes: [ { key: 'class', value: 'wp-block-data-tu-block' } ],
+      children:
+       [ { type: 'text', content: '\n  ' },
+         { type: 'element',
+           tagName: 'tu-chart',
+           attributes:
+            [ { key: 'tid', value: '3227' },
+              { key: 'data-json',
+                value: 'eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ==' },
+              { key: 'data-is-static', value: 'false' } ],
+           children: [] },
+         { type: 'text', content: '\n' } ] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n  ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'element',
+      tagName: 'tu-chart',
+      attributes:
+       [ { key: 'tid', value: '3227' },
+         { key: 'data-json',
+           value: 'eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ==' },
+         { key: 'data-is-static', value: 'false' } ],
+      children: [] }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'comment', content: ' /wp:data/tu-block ' }
+
+  console.log src/next-html-parser.js:17
+    item:-> { type: 'text', content: '\n' }
+
+  console.log test/test.js:8
+    [ { type: 'comment', content: ' wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'element',
+        tagName: 'p',
+        attributes: [],
+        children:
+         [ { type: 'text', content: '\n  订阅号是', attrs: {} },
+           { type: 'element',
+             tagName: 'a',
+             attributes:
+              [ { key: 'rel', value: 'noreferrer noopener' },
+                { key: 'href',
+                  value:
+                   'https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%B9%B3%E5%8F%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao' },
+                { key: 'target', value: '_blank' } ],
+             children: [ { type: 'text', content: '微信公众平台', attrs: {} } ],
+             attrs:
+              { rel: 'noreferrer noopener',
+                href:
+                 'https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%B9%B3%E5%8F%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao',
+                target: '_blank' } },
+           { type: 'text', content: '的', attrs: {} },
+           { type: 'element',
+             tagName: 'span',
+             attributes:
+              [ { key: 'style', value: 'font-family:SimSun, STSong' },
+                { key: 'class', value: 'tss-font-family' } ],
+             children: [ { type: 'text', content: '一种帐号类型', attrs: {} } ],
+             attrs:
+              { style: 'font-family:SimSun, STSong',
+                class: 'tss-font-family' } },
+           { type: 'text', content: '，旨在为用户提供信息。功能如下：\n', attrs: {} } ],
+        attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'comment', content: ' /wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n\n', attrs: {} },
+      { type: 'comment', content: ' wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'element',
+        tagName: 'p',
+        attributes: [],
+        children:
+         [ { type: 'text', content: '1、每天（24小时内）可以发送1条群发消息。', attrs: {} } ],
+        attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'comment', content: ' /wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n\n', attrs: {} },
+      { type: 'comment', content: ' wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'element',
+        tagName: 'p',
+        attributes: [],
+        children:
+         [ { type: 'text', content: '\n  ', attrs: {} },
+           { type: 'element',
+             tagName: 'span',
+             attributes:
+              [ { key: 'style', value: 'font-family:SimHei, STHeiti' },
+                { key: 'class', value: 'tss-font-family' } ],
+             children:
+              [ { type: 'element',
+                  tagName: 'span',
+                  attributes:
+                   [ { key: 'style', value: 'font-size:14px' },
+                     { key: 'class', value: 'tss-fontsize' } ],
+                  children:
+                   [ { type: 'text',
+                       content: '2、发给订阅用户（粉丝）的消息，将会显示在对方的“订阅号”文件夹中。点击两次才可以打开。',
+                       attrs: {} } ],
+                  attrs: { style: 'font-size:14px', class: 'tss-fontsize' } } ],
+             attrs:
+              { style: 'font-family:SimHei, STHeiti',
+                class: 'tss-font-family' } },
+           { type: 'text', content: '\n', attrs: {} } ],
+        attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'comment', content: ' /wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n\n', attrs: {} },
+      { type: 'comment', content: ' wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'element',
+        tagName: 'p',
+        attributes: [],
+        children:
+         [ { type: 'text', content: '\n  3、在订阅用户（粉丝）的通讯录中，', attrs: {} },
+           { type: 'element',
+             tagName: 'strong',
+             attributes: [ { key: 'class', value: 'tss-bold' } ],
+             children: [ { type: 'text', content: '订阅号将', attrs: {} } ],
+             attrs: { class: 'tss-bold' } },
+           { type: 'text', content: '被放', attrs: {} },
+           { type: 'element',
+             tagName: 'em',
+             attributes: [ { key: 'class', value: 'tss-italic' } ],
+             children: [ { type: 'text', content: '入订', attrs: {} } ],
+             attrs: { class: 'tss-italic' } },
+           { type: 'text', content: '阅', attrs: {} },
+           { type: 'element',
+             tagName: 'strong',
+             attributes: [ { key: 'class', value: 'tss-bold' } ],
+             children:
+              [ { type: 'element',
+                  tagName: 'em',
+                  attributes: [ { key: 'class', value: 'tss-italic' } ],
+                  children:
+                   [ { type: 'element',
+                       tagName: 'span',
+                       attributes:
+                        [ { key: 'style', value: 'text-decoration: underline' },
+                          { key: 'class', value: 'tss-underline' } ],
+                       children:
+                        [ { type: 'element',
+                            tagName: 'span',
+                            attributes:
+                             [ { key: 'style', value: 'color:#0059FF' },
+                               { key: 'class', value: 'tss-color' } ],
+                            children: [ { type: 'text', content: '号文件夹', attrs: {} } ],
+                            attrs: { style: 'color:#0059FF', class: 'tss-color' } } ],
+                       attrs:
+                        { style: 'text-decoration: underline', class: 'tss-underline' } } ],
+                  attrs: { class: 'tss-italic' } } ],
+             attrs: { class: 'tss-bold' } },
+           { type: 'text', content: '中。\n', attrs: {} } ],
+        attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'comment', content: ' /wp:paragraph ', attrs: {} },
+      { type: 'text', content: '\n\n', attrs: {} },
+      { type: 'comment',
+        content:
+         ' wp:data/tu-block {"tid":"3227","dataJson":"eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ=="} ',
+        attrs: {} },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'element',
+        tagName: 'div',
+        attributes: [ { key: 'class', value: 'wp-block-data-tu-block' } ],
+        children:
+         [ { type: 'text', content: '\n  ', attrs: {} },
+           { type: 'element',
+             tagName: 'tu-chart',
+             attributes:
+              [ { key: 'tid', value: '3227' },
+                { key: 'data-json',
+                  value: 'eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ==' },
+                { key: 'data-is-static', value: 'false' } ],
+             children: [],
+             attrs:
+              { tid: '3227',
+                'data-json': 'eyJ0aWQiOiIzMjI3IiwiaXNTdGF0aWMiOmZhbHNlfQ==',
+                'data-is-static': 'false' } },
+           { type: 'text', content: '\n', attrs: {} } ],
+        attrs: { class: 'wp-block-data-tu-block' } },
+      { type: 'text', content: '\n', attrs: {} },
+      { type: 'comment', content: ' /wp:data/tu-block ', attrs: {} },
+      { type: 'text', content: '\n', attrs: {} } ]
+
+Done in 2.16s.
